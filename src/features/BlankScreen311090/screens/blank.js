@@ -22,7 +22,14 @@ export class __Blank extends React.Component {
   state = {}
   render = () => (
     <View style={this.props.themedStyle.View_1}>
-      <Image resizeMode="cover" style={this.props.themedStyle.Image_2} />
+      <Image
+        resizeMode="cover"
+        source={{
+          uri:
+            "https://d3nfddh2sbo9hk.cloudfront.net/media/project_component_resources/7_wA5RmYn.jpg"
+        }}
+        style={this.props.themedStyle.Image_2}
+      />
     </View>
   )
 }
@@ -72,12 +79,8 @@ _Blank = withStyles(__Blank, theme => ({
     overflow: "visible",
     borderColor: "#000000",
     borderStyle: "solid",
-    borderWidth: 0,
-    borderLeftWidth: 0,
-    borderRightWidth: 0,
-    borderTopWidth: 0,
-    borderBottomWidth: 0,
-    borderRadius: 0
+    borderWidth: 4,
+    borderRadius: 43
   }
 }))
 
