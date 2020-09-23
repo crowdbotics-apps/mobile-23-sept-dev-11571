@@ -20,18 +20,7 @@ export class __Blank extends React.Component {
     return { headerLeft: <SlideMenuIcon navigationProps={navigation} /> }
   }
   state = {}
-  render = () => (
-    <View style={this.props.themedStyle.View_1}>
-      <Image
-        resizeMode="cover"
-        source={{
-          uri:
-            "https://d3nfddh2sbo9hk.cloudfront.net/media/project_component_resources/9_WodJI2t.jpg"
-        }}
-        style={this.props.themedStyle.Image_2}
-      />
-    </View>
-  )
+  render = () => <View style={this.props.themedStyle.View_1} />
 }
 
 _Blank = withStyles(__Blank, theme => ({
@@ -64,27 +53,6 @@ _Blank = withStyles(__Blank, theme => ({
     borderBottomWidth: 0,
     borderRadius: 0,
     backgroundSize: "auto"
-  },
-  Image_2: {
-    width: 1920,
-    height: 200,
-    marginLeft: 0,
-    marginRight: 0,
-    marginTop: 0,
-    marginBottom: 0,
-    paddingLeft: 0,
-    paddingRight: 0,
-    paddingTop: 0,
-    paddingBottom: 0,
-    overflow: "visible",
-    borderColor: "#000000",
-    borderStyle: "solid",
-    borderWidth: 0,
-    borderLeftWidth: 0,
-    borderRightWidth: 0,
-    borderTopWidth: 0,
-    borderBottomWidth: 0,
-    borderRadius: 0
   }
 }))
 
