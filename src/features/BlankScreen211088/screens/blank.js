@@ -66,7 +66,7 @@ _Blank = withStyles(__Blank, theme => ({
     backgroundSize: "auto"
   },
   Image_2: {
-    width: 1920,
+    width: 199,
     height: 200,
     marginLeft: 0,
     marginRight: 0,
