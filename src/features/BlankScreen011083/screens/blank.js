@@ -84,14 +84,6 @@ export class __Blank extends React.Component {
         checked={this.state.Toggle_7}
         onChange={nextChecked => this.setState({ Toggle_7: nextChecked })}
       />
-      <Image
-        resizeMode="repeat"
-        source={{
-          uri:
-            "https://d3nfddh2sbo9hk.cloudfront.net/media/project_component_resources/9_WodJI2t.jpg"
-        }}
-        style={this.props.themedStyle.Image_8}
-      />
     </View>
   )
 }
@@ -285,23 +277,6 @@ _Blank = withStyles(__Blank, theme => ({
     textTransform: "none",
     lineHeight: 12,
     letterSpacing: 0
-  },
-  Image_8: {
-    width: 199,
-    height: 200,
-    marginLeft: 0,
-    marginRight: 0,
-    marginTop: 0,
-    marginBottom: 0,
-    paddingLeft: 0,
-    paddingRight: 0,
-    paddingTop: 0,
-    paddingBottom: 0,
-    overflow: "visible",
-    borderColor: "#000000",
-    borderStyle: "solid",
-    borderWidth: 4,
-    borderRadius: 14
   }
 }))
 
