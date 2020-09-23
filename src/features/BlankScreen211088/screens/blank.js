@@ -28,6 +28,14 @@ export class __Blank extends React.Component {
           uri:
             "https://d3nfddh2sbo9hk.cloudfront.net/media/project_component_resources/8_zTiAxdO.jpg"
         }}
+        style={this.props.themedStyle.Image_3}
+      />
+      <Image
+        resizeMode="cover"
+        source={{
+          uri:
+            "https://d3nfddh2sbo9hk.cloudfront.net/media/project_component_resources/8_zTiAxdO.jpg"
+        }}
         style={this.props.themedStyle.Image_2}
       />
     </View>
@@ -65,6 +73,23 @@ _Blank = withStyles(__Blank, theme => ({
     borderRadius: 0,
     backgroundSize: "auto"
   },
+  Image_3: {
+    width: 199,
+    height: 200,
+    marginLeft: 0,
+    marginRight: 0,
+    marginTop: 0,
+    marginBottom: 0,
+    paddingLeft: 0,
+    paddingRight: 0,
+    paddingTop: 0,
+    paddingBottom: 0,
+    overflow: "visible",
+    borderColor: "#000000",
+    borderStyle: "dashed",
+    borderWidth: 4,
+    borderRadius: 49
+  },
   Image_2: {
     width: 199,
     height: 200,
@@ -79,12 +104,8 @@ _Blank = withStyles(__Blank, theme => ({
     overflow: "visible",
     borderColor: "#000000",
     borderStyle: "solid",
-    borderWidth: 0,
-    borderLeftWidth: 0,
-    borderRightWidth: 0,
-    borderTopWidth: 0,
-    borderBottomWidth: 0,
-    borderRadius: 0
+    borderWidth: 4,
+    borderRadius: 49
   }
 }))
 
